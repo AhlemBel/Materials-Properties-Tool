@@ -1,0 +1,8 @@
+# Streamlit Community Cloud reads this file because it sits next to
+# streamlit_app.py. It does NOT need gradio -- that's only for the
+# Hugging Face Space deployment (see ../requirements.txt).
+# Pinned to the version this app was actually tested against (uses the
+# `width="stretch"` button/pyplot API, which is only on recent Streamlit).
+streamlit==1.65.0
+numpy>=1.24
+matplotlib>=3.5

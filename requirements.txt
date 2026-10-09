@@ -1,0 +1,6 @@
+# Pinned to versions verified against this code (see README.md "Verified against" note).
+# Loosen the pins later if you need a newer feature, but re-test the calculators
+# (python tests/test_calculators.py) after doing so.
+gradio==6.30.0
+numpy>=1.24
+matplotlib>=3.5
